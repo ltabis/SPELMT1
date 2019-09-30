@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# chmod 755 spinin.sh
-# cp spinin.sh /bin/
-# echo "./spinin.sh" >> ~/.bashrc
-# echo "./spinin.sh" >> ~/.zshrc
-# source ~/.bashrc
-# source ~/.zshrc
-
 speenin () {
     while [ 1 ]; do
 	for rotation in "right" "inverted" "left" "normal"
