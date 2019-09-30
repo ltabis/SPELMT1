@@ -4,9 +4,8 @@
 
 int main ()
 {
-	pid_t child_pid;
+	pid_t child_pid = fork();
 
-	Child_pid = fork();
 	if (!child_pid)
 		execlp("./spinin.sh", "", NULL);
 	else
